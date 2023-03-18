@@ -126,6 +126,11 @@
     align-self:flex-end;
 }
 
+.message_content:hover {
+    background-color: var(--light-greyish-blue-clr);
+    cursor: pointer;
+}
+
   .chess_block {
     justify-content: space-between;
   }
@@ -135,8 +140,13 @@
     font-weight: var(--font-weight2);
   }
 
-  .post_title {
+  .notification_title:hover, .post_title:hover {
     color: var(--primary-clr2);
+    cursor: pointer;
+  }
+
+  .post_title {
+    color: var(--dark-grey-bluish);
     font-weight: var(--font-weight2);
   }
 
